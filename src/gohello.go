@@ -1,11 +1,7 @@
-package main
+package gohello
 
 import "fmt"
 
 func GetGreeting() string {
 	return "Hello World."
-}
-
-func main() {
-	fmt.Println(GetGreeting())
 }
